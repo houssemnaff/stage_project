@@ -1,0 +1,128 @@
+
+
+.title {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.2));
+    
+}  
+  .reactquill {
+    width: 100%;
+    max-width: 2000px; 
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+   
+  }
+  
+  
+  .reactquill .ql-editor {
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 200px;
+      background-color: white;
+  }
+
+  .ql-editor img {
+    width: 40vh;
+
+  }
+  .ql-editor p{
+    align-items: center;
+  }
+ 
+  .reactquill .ql-toolbar {
+    border-bottom: 10px solid #161515;
+    border-radius: 8px 8px 0 0;
+    background-color: #f8f8f8;
+  }
+  
+  
+  .reactquill .ql-toolbar {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 7px;
+    margin: 1px;
+    padding: 4px 5px;
+    cursor: pointer;
+  }
+  
+  
+  .reactquill .ql-toolbar .ql-picker-label svg {
+    fill: #333;
+  }
+  
+.button {
+  margin-top: 10px;
+  display: flex;
+   
+   justify-content: space-between;
+   margin-top: 300px;
+}
+
+.button  {
+  background-color:transparent;
+  color: #fff; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3px 6px;
+
+}
+
+.button :hover {
+ 
+  background-color: #0056b3; 
+}
+.Button{
+  width: 40%;
+}
+.Delete{
+  width: 35%;
+  color: red;
+}
+
+body{
+  background-color: rgb(232, 229, 226);
+}
+.Delete:hover{
+  background-color: red;
+}
+
+
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form input[type="password"] {
+  padding: 12px 20px; /* Ajustez la taille du padding pour modifier la taille du champ de saisie */
+  font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
+  border-radius: 8px; /* Ajoutez un peu de bord arrondi aux champs de saisie */
+  border: 2px solid #ccc; /* Ajoutez une bordure pour une meilleure apparence */
+  width: 300px; /* Faites en sorte que les champs de saisie occupent toute la largeur disponible */
+  box-sizing: border-box; /* Incluez le padding et la bordure dans la largeur totale */
+  margin-bottom: 10px; /* Ajoutez un peu d'espace en bas des champs de saisie */
+  color: black;
+  margin-left: 10px;
+}
+
+.btnsave{
+  color: #000000;
+}
+.setting .btn{
+  
+  
+  padding: 10px 120px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+align-items: center;
+justify-self: space-around;
+  margin: 16px 30px;
+  color: white;
+}

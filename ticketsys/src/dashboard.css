@@ -1,0 +1,10 @@
+.status{
+    color:rgb(29, 204, 29);
+    border-radius: 20px 8px; /* You can adjust the value to control the roundness */
+ 
+  padding: 8px; /* Add padding for better appearance */
+  border: 1px solid transparent;
+  text-align: center;
+  background-color: rgb(202, 233, 160);
+  
+}

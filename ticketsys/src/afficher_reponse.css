@@ -1,0 +1,41 @@
+
+.aa .ql-toolbar{
+    display: none !important;
+  }
+  .ql-toolbar{
+    border-radius: 4px ;
+    
+  }
+
+  .aa .ql-container {
+    border-top: 5px solid black;
+  }
+  .aa{
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 19px;
+  }
+  body{
+    background-color: white;
+  }
+  .ticket .ql-toolbar{
+    display: none !important;
+   
+  }
+  .ticket{
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 19px;
+  }
+ .prec{
+  background-color: rgb(234, 234, 227);
+  border: 0px solid black;
+  
+ }
+ .bi-arrow-left-circle-fill{
+  margin-left: 1%;
+ }
+ .style{
+  text-align: center;
+ }
+ 
